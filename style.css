@@ -1,0 +1,140 @@
+body {
+    margin: 0;
+    font-family: Arial;
+    background-color: #555252;
+    color: white;
+    text-align: center;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 30px;
+    background-color: #000000;
+    border-bottom-left-radius: 40px;
+    border-bottom-right-radius: 40px;
+}
+
+.logo {
+    width: 70px;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    margin-left: 20px;
+    font-size: 18px;
+    transition: 0.3s;
+}
+
+nav a:hover {
+    color: #00bcd4;
+    transform: scale(1.1);
+}
+
+.cars {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.cars img {
+    width: 250px;
+    margin: 10px;
+    border-radius: 10px;
+}
+
+
+.info {
+    background-color: #000000;
+    margin: 20px auto;
+    padding: 20px;
+    width: 80%;
+    border-radius: 10px;
+    text-align: left;
+}
+.info h2{
+    color: #00bcd4;
+}
+
+.info-h {
+color: #00bcd4;
+}
+
+.info ul {
+    list-style: none;
+    padding: 0;
+}
+
+.info li {
+    padding: 10px;
+    border-bottom: 1px solid #444;
+}
+
+.login-box {
+    width: 350px;
+    margin: 80px auto;
+    padding: 30px;
+    background-color: #000000;
+    border-radius: 12px;
+}
+
+.login-box input {
+    width: 90%;
+    padding: 10px;
+    margin: 10px 0;
+    border: none;
+    border-radius: 5px;
+}
+
+.select-box {
+    text-align: left;
+    margin: 10px 0;
+}
+
+.select-box label {
+    display: block;
+    margin-bottom: 5px;
+    color: #ccc;
+}
+
+.select-box select {
+    width: 100%;
+    padding: 8px;
+    border-radius: 5px;
+    border: none;
+}
+
+.btns {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 15px;
+}
+
+.btns button {
+    width: 48%;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 15px;
+}
+
+.btns button[type="submit"] {
+    background-color: #00bcd4;
+    color: black;
+}
+
+.btns button[type="submit"]:hover {
+    background-color: #0097a7;
+}
+
+.reset {
+    background-color: #e53935;
+    color: white;
+}
+
+.reset:hover {
+    background-color: #c62828;
+}
